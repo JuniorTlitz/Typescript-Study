@@ -1,4 +1,4 @@
-import { FS } from '../interface/FS';
+import { FS } from '../../interface/FS';
 
 export class RealFS extends FS {
   public readFile(fileName: string) {

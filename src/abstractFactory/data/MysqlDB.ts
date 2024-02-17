@@ -1,4 +1,4 @@
-import { DB } from '../interface/DB';
+import { DB } from '../../interface/DB';
 
 export class MysqlDB extends DB {
   public connect() {
